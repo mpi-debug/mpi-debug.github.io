@@ -22,8 +22,8 @@ author: Junchao Zhang
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - MPICH: "https://www.mpich.org/"
-    - OpenMPI: "https://www.open-mpi.org/"
+    - MPICH: "https://www.mpich.org"
+    - OpenMPI: "https://www.open-mpi.org"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://www.anl.gov/profile/junchao-zhang"
 
@@ -103,7 +103,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "mpi-debug.org"
+url-pretty: "https://mpi-debug.org"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
