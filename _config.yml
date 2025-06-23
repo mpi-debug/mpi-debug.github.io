@@ -22,8 +22,8 @@ author: Junchao Zhang
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - MPICH Homepage: "https://www.mpich.org/"
-    - OpenMPI Homepage: "https://www.open-mpi.org/"
+    - MPICH: "https://www.mpich.org/"
+    - OpenMPI: "https://www.open-mpi.org/"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://www.anl.gov/profile/junchao-zhang"
 
@@ -238,10 +238,10 @@ footer-hover-col: "#0085A1"
 giscus:
  # hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
  repository: "mpi-debug/mpi-debug.github.io"
- repository-id: "R_kgDOPApX5w"
- category: "General"
- category-id: "DIC_kwDOPApX584Cr5YO"
- mapping: "pathname"
+ repository-id: R_kgDOPApX5w
+ category: General
+ category-id: DIC_kwDOPApX584Cr5YO
+ mapping: pathname
  reactions-enabled: 1
  emit-metadata: 0
  theme: light
