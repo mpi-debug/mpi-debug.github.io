@@ -10,21 +10,21 @@
 ############################
 
 # Name of website
-title: My website
+title: MPI Debug
 
 # Your name to show in the footer
-author: Some Person
+author: Junchao Zhang
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Suggestion: "https://github.com/mpi-debug/mpi-debug.github.io/discussions"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - MPICH: "https://www.mpich.org"
+    - OpenMPI: "https://www.open-mpi.org"
+    - MPI Forum: "https://www.mpi-forum.org"
 
 ################
 # --- Logo --- #
@@ -50,14 +50,14 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "junchao.zhang@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  # facebook: deanattali
+  github: mpi-debug
+  # twitter: daattali
+  # patreon: DeanAttali
+  # youtube: "@daattali"
+  # whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -102,7 +102,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "https://mpi-debug.org"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -234,16 +234,16 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below
 # See more details about giscus and each of the following parameters at https://giscus.app
-#giscus:
-#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
-#  category: Announcements # Category name of your GitHub Discussion posts
-#  category-id: # ID of your category, retrieve this info from https://giscus.app
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
+giscus:
+ hostname: giscus.app
+ repository: "mpi-debug/mpi-debug.github.io"
+ repository-id: R_kgDOPApX5w
+ category: General
+ category-id: DIC_kwDOPApX584Cr5YO
+ mapping: pathname
+ reactions-enabled: 1
+ emit-metadata: 0
+ theme: light
 
 ################
 # --- Misc --- #
@@ -260,7 +260,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Chicago"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
