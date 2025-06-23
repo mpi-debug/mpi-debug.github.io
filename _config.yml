@@ -22,7 +22,8 @@ author: Junchao Zhang
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - MPI debug: "https://mpi-debug.org"
+    - MPICH Homepage: "https://www.mpich.org/"
+    - OpenMPI Homepage: "https://www.open-mpi.org/"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://www.anl.gov/profile/junchao-zhang"
 
@@ -234,16 +235,16 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below
 # See more details about giscus and each of the following parameters at https://giscus.app
-#giscus:
-#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
-#  category: Announcements # Category name of your GitHub Discussion posts
-#  category-id: # ID of your category, retrieve this info from https://giscus.app
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
+giscus:
+ # hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+ repository: "mpi-debug/mpi-debug.github.io"
+ repository-id: "R_kgDOPApX5w"
+ category: "General"
+ category-id: "DIC_kwDOPApX584Cr5YO"
+ mapping: "pathname"
+ reactions-enabled: 1
+ emit-metadata: 0
+ theme: light
 
 ################
 # --- Misc --- #
