@@ -20,7 +20,7 @@ author: Junchao Zhang
 ###############################################
 
 navbar-links:
-  Suggestion: "https://github.com/mpi-debug/mpi-debug.github.io/discussions"
+  Discussions: "https://github.com/mpi-debug/mpi-debug.github.io/discussions"
   Resources:
     - MPICH: "https://www.mpich.org"
     - OpenMPI: "https://www.open-mpi.org"
