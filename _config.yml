@@ -20,11 +20,13 @@ author: Junchao Zhang
 ###############################################
 
 navbar-links:
+  About: "about"
   Discussions: "https://github.com/mpi-debug/mpi-debug.github.io/discussions"
   Resources:
     - MPICH: "https://www.mpich.org"
     - OpenMPI: "https://www.open-mpi.org"
     - MPI Forum: "https://www.mpi-forum.org"
+    - BSSw: "https://bssw.io"
 
 ################
 # --- Logo --- #
