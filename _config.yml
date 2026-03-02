@@ -21,6 +21,7 @@ author: Junchao Zhang
 
 navbar-links:
   About: "about"
+  Feedback: "https://www.surveymonkey.com/r/JQS3QMQ"
   Discussions: "https://github.com/mpi-debug/mpi-debug.github.io/discussions"
   Resources:
     - MPICH: "https://www.mpich.org"
